@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+.header {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home,
+.amazon,
+.fk {
+    border: solid 5px white;
+    border-radius: 2px;
+    flex: 0.33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homepage {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#shirtsimage {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.simg {
+    height: 65px;
+    width: 76px;
+    object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hpage {
+    height: 100vh;
+    background-color: lightcoral;
+    width: 100%;
+}
+
+.amazon:hover {
+    color: blue;
+}
+
+
+/* //////////////////////////////
+////////////////////////////// */
+
+.title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.css-et1ao3-MuiTypography-root {
+    font-family: 'Suez One', serif !important;
+    font-size: 17px !important;
+}
+
+.key {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: gray;
+    text-decoration: underline;
+}
+
+.ans {
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    color: black;
+}
+
+.css-o69gx8-MuiCardMedia-root {
+    height: 200px !important;
+    width: 109px !important;
+    object-fit: cover !important;
+    margin-left: 27% !important;
+}
+
+#qwery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    row-gap: 22px;
+    padding-bottom: 1%;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    width: 345px !important;
+}
+
+.css-185gdzj-MuiCardHeader-root {
+    background-color: lightgray !important;
+}
+
+
+/* //////////////////////////////
+////////////////////////////// */
+
+#qwerty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    row-gap: 22px;
+    padding-bottom: 1%;
+}
+
+#qwerty .css-o69gx8-MuiCardMedia-root {
+    height: 196px !important;
+    width: 194px !important;
+    object-fit: contain !important;
 }
