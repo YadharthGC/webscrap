@@ -103,7 +103,7 @@
 }
 
 .css-185gdzj-MuiCardHeader-root,
-.css--faujvq {
+.css-faujvq {
     background-color: lightgray !important;
 }
 
@@ -121,7 +121,8 @@
     padding-bottom: 1%;
 }
 
-#qwerty .css-o69gx8-MuiCardMedia-root {
+#qwerty .css-o69gx8-MuiCardMedia-root,
+#qwerty.css-rhsghg {
     height: 196px !important;
     width: 194px !important;
     object-fit: contain !important;
